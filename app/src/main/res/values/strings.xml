@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">The Daily Promo</string>
+
+    <string name="logout_msg">Log out ?</string>
+
+
+
+    <string-array name="list_area">
+        <item>All Area</item>
+        <item>Menteng</item>
+        <item>Senayan</item>
+        <item>Kuningan</item>
+        <item>Blok M</item>
+        <item>Pondok Indah</item>
+        <item>Kemang</item>
+        <item>Kelapa Gading</item>
+        <item>Gandaria</item>
+        <item>Tanah Abang</item>
+        <item>Mangga Dua</item>
+        <item>Harmoni</item>
+        <item>Mampang</item>
+        <item>Daan Mogot</item>
+        <item>Green Garden</item>
+        <item>Pluit</item>
+    </string-array>
+</resources>
