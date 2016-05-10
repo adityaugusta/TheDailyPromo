@@ -158,8 +158,8 @@ public class MainActivity extends AppCompatActivity {
 			for(int i = 0; i < areaList.size(); i++){
 				areaNameList[i] = areaList.get(i).get(AREA_NAME);
 			}
-			dataAdapter = new ArrayAdapter<>(MainActivity.this, android.R.layout.simple_spinner_item, areaNameList);
-			dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+			dataAdapter = new ArrayAdapter<>(MainActivity.this, R.layout.spinner_item, areaNameList);
+			dataAdapter.setDropDownViewResource(R.layout.spinner_dropdown_item);
 			getSp_area.setAdapter(dataAdapter);
 			getSp_area.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
 				@Override public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {

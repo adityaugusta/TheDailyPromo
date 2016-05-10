@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#1ec1a0</color>
-    <color name="colorPrimaryDark">#19a488</color>
+    <color name="colorPrimaryDark">#159e82</color>
+    <color name="colorPrimaryDark2">#448478</color>
     <color name="colorPrimaryLight">#5cdec4</color>
 
     <color name="colorPrimaryTransparent">#701ec1a0</color>
+    <color name="colorButtonTransparent">#30ffffff</color>
 
     <color name="colorAccent">@color/colorPrimary</color>
+
+    <color name="transparent">#00000000</color>
 </resources>

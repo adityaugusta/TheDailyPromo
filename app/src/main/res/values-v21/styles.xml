@@ -1,9 +1,15 @@
 <resources>
+
     <style name="AppTheme.NoActionBar">
-        <item name="windowActionBar">true</item>
+        <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:statusBarColor">@color/colorPrimaryDark</item>
-        <item name="colorButtonNormal">@color/colorPrimary</item>
+        <item name="colorButtonNormal">@color/colorButtonTransparent</item>
     </style>
+
+    <style name="EditTextCustomHolo" parent="android:Widget.EditText">
+        <item name="colorControlNormal">@color/colorPrimaryDark2</item>
+    </style>
+
 </resources>
